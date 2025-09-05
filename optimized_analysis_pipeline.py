@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Single-Cell RNA-seq Aging Analysis Pipeline
-Analyzes transcriptional burst parameters across young/old mice
-using dual-platform (10x and Smart-seq2) validation
+Analyzes transcriptional bursting dynamics across young and old mice
+using dual-platform (10x and Smart-seq2) with valudation 
 """
 
 import numpy as np
@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ============================================================================
-# Configuration
+# Configuration basic first steps
 # ============================================================================
 
 class Config:
